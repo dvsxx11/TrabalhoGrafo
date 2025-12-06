@@ -75,20 +75,4 @@ cd TrabalhoGrafo
 
 ## **3. Requisitos Mínimos Implementados**
 
-- Representação do grafo (lista de adjacência)
-
-- Adicionar vértice
-
-- Remover vértice
-
-- Adicionar aresta
-
-- Remover aresta
-
-- Exibir grafo
-
-- Caso de uso demonstrativo
-
----
-
 
