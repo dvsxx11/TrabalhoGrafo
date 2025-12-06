@@ -4,33 +4,42 @@ Autor: **Davi Silva Soares**
 
 ---
 
-## 📌 Descrição do Projeto
-
-Este projeto implementa uma estrutura de **Grafo Não Direcionado** utilizando Java, com operações fundamentais da disciplina de Estrutura de Dados, incluindo:
-
-- Adicionar e remover vértices  
-- Adicionar e remover arestas  
-- Exibir o grafo em lista de adjacência  
-- Execução dos algoritmos:
-  - **BFS (Busca em Largura)**
-  - **DFS (Busca em Profundidade)**  
-
-
-O objetivo é apresentar uma implementação simples, direta e eficiente de grafos, além de demonstrar sua aplicação prática.
+## 📌 Sobre o Projeto  
+Este repositório contém uma implementação em Java de grafos, adaptada para funcionar como um **grafo de rotas entre cidades**, com distâncias (pesos) e cálculo de menor caminho usando o algoritmo Dijkstra.  
+O objetivo é demonstrar estrutura de grafo, operações básicas, e aplicação prática de algoritmos para rotas de cidades — apropriado ao contexto da disciplina de Estrutura de Dados.
 
 ---
 
-## 🧠 Problema e Solução
+## ✅ Funcionalidades Implementadas  
 
-O problema proposto pela disciplina consiste em implementar uma estrutura de grafo do zero e demonstrar seu funcionamento através de operações básicas e algoritmos clássicos.
+- Representação de grafo via **lista de adjacência**.  
+- Operações básicas:
+  - Adicionar vértices e adicionar arestas com peso (distância) — grafo não-direcionado.  
+  - Impressão do grafo (vértices + arestas com pesos).  
+- Implementação do algoritmo **Dijkstra** para cálculo de menor caminho (distância mínima) a partir de uma cidade origem.  
+- Exemplo concreto de “mapa de cidades” com distâncias reais fictícias, demonstrando uso prático do grafo de rotas.
 
-A solução apresentada:
+---
 
-- Cria um grafo baseado em **lista de adjacência**  
-- Permite operações essenciais sobre vértices e arestas  
-- Implementa BFS e DFS  
-- Utiliza um caso de uso real para demonstrar o funcionamento  
+## 🧰 Tecnologias e Ferramentas  
 
+- Linguagem: **Java 11+**  
+- IDE sugerida: **IntelliJ IDEA**, mas o projeto também compila por linha de comando com `javac/java`.  
+- Estrutura simples, sem dependências externas.  
+
+---
+
+## 📁 Estrutura do Repositório
+
+TrabalhoGrafo/
+│
+├── src/
+│ ├── grafo/
+│ │ ├── Graph.java
+│ │ ├── Edge.java
+│ │ ├── Dijkstra.java
+│ └── Main.java
+├── README.md
 ---
 
 ## 🧰 Linguagem e Versão
@@ -45,7 +54,7 @@ A solução apresentada:
 
 ### **1. Clonar o repositório**
 ```bash
-git clone https://github.com/SEU-USUARIO/TrabalhoGrafo.git
+git clone https://github.com/dvsxx11/TrabalhoGrafo.git
 cd TrabalhoGrafo
 
 ```
@@ -80,8 +89,6 @@ cd TrabalhoGrafo
 
 - Caso de uso demonstrativo
 
-## 4. Requisitos Avançados Implementados
-- Algoritmos clássicos
+---
 
-- BFS (Busca em Largura) 
-- DFS (Busca em Profundidade)
+
