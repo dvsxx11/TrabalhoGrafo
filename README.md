@@ -40,6 +40,7 @@ TrabalhoGrafo/
 │ │ ├── Dijkstra.java
 │ └── Main.java
 ├── README.md
+
 ---
 
 ## 🧰 Linguagem e Versão
@@ -72,7 +73,4 @@ cd TrabalhoGrafo
 - Clique em Run
 
 ---
-
-## **3. Requisitos Mínimos Implementados**
-
 
